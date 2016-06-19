@@ -10,7 +10,7 @@ Shared for educational purposes. No support provided.
 
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-If I was to write this nowadays I would probably build it with Node.js because it's what I'm most familiar with nowadays, and I would also split it in files: one for each class, one for the main interface to the utility, and one for the command line executable file. It would also be neat to look into getting sox working on the browser via emscripter or something like that so we could convert songs in the browser! (you can consider this your homework if you're so naturally inclined 🙃)
+If I was to write this nowadays I would probably build it with Node.js because it's what I'm most familiar with nowadays, and I would also split it in files: one for each class, one for the main interface to the utility, and one for the command line executable file. It would also be neat to look into getting sox working on the browser via Emscripten or something like that so we could convert songs in the browser! (you can consider this your homework if you're so naturally inclined 🙃)
 
 ## "Documentation"
 
@@ -21,6 +21,10 @@ It looks like both the input and output file names are hardcoded at the beginnin
 It also requires that you have the [sox](http://sox.sourceforge.net/) utility installed in your system as it needs to convert Renoise's high quality stereo FLAC samples into the type of mono 8000 Hz samples the MOD format uses. Sox utility is called directly, with `shell_exec`; no wrapper libraries are used.
 
 Not all the effects are supported and probably not all the sample configuration parameters etc. From what I remember there were also differences on the range of notes Renoise can play versus what MOD can. There might be other quirks. Modules are a funny file format.
+
+## Contributing
+
+I don't have the time to work on this project but if you want to adopt it, get in touch!
 
 ## Credits
 
