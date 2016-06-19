@@ -6,6 +6,8 @@ Is that a good idea? Will you get accurate results? Quite probably not, but it c
 
 **Note:** *I haven't ran this in approximately 10 years; I found it while sorting old stuff, and this probably won't work as I think Renoise has changed file formats too (I might be wrong though).*
 
+**ALSO**: *there seems to be a working project that does it all and does it from within Renoise: [XRNS2XMOD](https://xrns2xmod.codeplex.com/) - converts both to MOD and XM. I haven't ran it myself but it looks promising!*
+
 Shared for educational purposes. No support provided.
 
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
